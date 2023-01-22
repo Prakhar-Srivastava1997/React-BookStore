@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "username": "Prakhar",
+      "email": "prak@gmail.com",
+      "contact": "1234567898",
+      "password": "prak1234",
+      "address": "23/M/7, Dabauli",
+      "pin": "208022",
+      "id": "1664102767874",
+      "userimage": "../Images/bookshop.jpg"
+    }
+  ],
+  "products": [
+    {
+      "productname": "The Great Gatsby",
+      "productauthor": "F. Scott Fitzgerald",
+      "productcategory": "Novel",
+      "productdescription": "In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since. ‘Whenever you feel like criticizing any one,’ he told me, ‘just remember that all the people in this world haven’t had the advantages that you’ve had",
+      "productprice": "500",
+      "id": "1664031780502",
+      "productimage": "../Images/the-great-gatsby-13.jpg"
+    },
+    {
+      "productname": "The Picture of Dorian Gray",
+      "productauthor": "Oscar Wilde",
+      "productcategory": "Novel",
+      "productdescription": "Experience is merely the name men gave to their mistakes.",
+      "productprice": "400",
+      "id": "1664031924919",
+      "productimage": "../Images/the-picture-of-dorian-gray.jpg"
+    },
+    {
+      "productname": "Great Expectations",
+      "productauthor": "Charles Dickens",
+      "productcategory": "Novel",
+      "productdescription": "Suffering has been stronger than all other teaching, and has taught me to understand what your heart used to be. I have been bent and broken, but – I hope – into a better shape",
+      "productprice": "600",
+      "id": "1664032027296",
+      "productimage": "../Images/great-expectations.jpg"
+    },
+    {
+      "productname": "Nirmala",
+      "productauthor": "Premchand",
+      "productcategory": "Novel",
+      "productdescription": "Nirmala – that describes the story of a child bride and her husband, who is very senior to her.",
+      "productprice": "600",
+      "id": "1664032365259",
+      "productimage": "../Images/Nirmala-by-Premchand.jpg"
+    },
+    {
+      "productname": "Madhushala",
+      "productauthor": "Harivansh Rai Bachchan",
+      "productcategory": "Novel",
+      "productdescription": "Though on the face of it the poem talks about alcohol, it actually is a reflection of life and its complexities.",
+      "productprice": "500",
+      "id": "1664032518605",
+      "productimage": "../Images/Madhushala.jpg"
+    },
+    {
+      "productname": "Yama",
+      "productauthor": " Mahadevi Verma",
+      "productcategory": "Novel",
+      "productdescription": "Yama is a collection of some of her finest poetry. It is also the book that won her the Gyanpeeth Award.",
+      "productprice": "550",
+      "productimage": "../Images/Yama.jpg",
+      "id": "1664032613813"
+    },
+    {
+      "productname": "Harry Potter",
+      "productauthor": "J K Rowling",
+      "productcategory": "Story",
+      "productdescription": "The story of a talented wizard boy, Harry Potter who joins a special school in Hogwarts. He has to fight the evilest wizard Voldemort to keep himself and his friends and school safe.",
+      "productprice": "700",
+      "id": "1664033618717",
+      "productimage": "../Images/Harry-Potter.jpg"
+    },
+    {
+      "productname": "Famous Five",
+      "productauthor": "Enid Blyton",
+      "productcategory": "Story",
+      "productdescription": "the famous five – Julian, Dick, Anne, George and George’s dog, Timmy – go on to various adventures, solve mysteries and have tons of fun along the way.",
+      "productprice": "500",
+      "id": "1664033700543",
+      "productimage": "../Images/Famous-Five.jpg"
+    },
+    {
+      "productname": "Make Way For Noddy",
+      "productauthor": "Enid Blyton",
+      "productcategory": "Story",
+      "productdescription": "Noddy is kind and honest, but he often gets into trouble, either through his own misunderstandings or because someone, usually one of the naughty goblins Sly or Gobbo, has played a trick on him.",
+      "productprice": "400",
+      "id": "1664033838265",
+      "productimage": "../Images/Noddy.jpg"
+    },
+    {
+      "productname": "Akbar Aur Birbal",
+      "productauthor": "Praveen Kumar",
+      "productcategory": "Story",
+      "productdescription": "Exciting collection of stories of Akbar and Birbal that kids love the most.",
+      "productprice": "450",
+      "id": "1664034108684",
+      "productimage": "../Images/Akbar-Birbal.jpg"
+    },
+    {
+      "productname": "Tenali Raman",
+      "productauthor": "C. L. L. Jayaprada",
+      "productcategory": "Story",
+      "productdescription": "Collection of short and moral full stories that are evergreen for kids.",
+      "productprice": "800",
+      "id": "1664034407677",
+      "productimage": "../Images/Tenali-Raman.jpg"
+    },
+    {
+      "productname": "Mahabharat Tales",
+      "productauthor": "Swati Bhattacharya",
+      "productcategory": "Story",
+      "productdescription": "Mahabharata, the ancient story begins with the king of Kuruvansh, Shantanu. The whole story revolves around the succession between Kauravas and Pandavas.",
+      "productprice": "900",
+      "id": "1664034547103",
+      "productimage": "../Images/Mahabharat.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "orderid": "1665240542911",
+      "orderdetail": [
+        "The Great Gatsby",
+        "The Picture of Dorian Gray"
+      ],
+      "orderquantity": 2,
+      "orderprice": 900,
+      "orderdate": "Sat Oct 08 2022",
+      "id": 1
+    }
+  ]
+}

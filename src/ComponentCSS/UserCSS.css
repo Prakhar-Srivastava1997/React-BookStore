@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.user-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sec-heading{
+    width: 100%;
+    position:relative;
+}
+.top-div{
+    width: 80%;
+    height: 8rem;
+    position: absolute;
+    top: 5rem;
+    left: 9%;
+    background-color: cadetblue;
+    z-index: 1;
+}
+.below-div{
+    width: 80%;
+    height: 8rem;
+    top: 9rem;
+    left: 10%;
+    position: absolute;
+    background-color:greenyellow;
+}
+.logout{
+    font-size: 2.5rem;
+    position: absolute;
+    left:90%;
+    top:5rem;
+}
+.sec-mycart{
+    position: absolute;
+    left:70%;
+    top:4rem;
+    display: flex;
+    flex-direction: column;
+}
+.mycart{
+    font-size: 2.5rem;
+}
+.item-count{
+    font-size: 1.5rem;
+    margin-bottom: -0.6rem;
+    margin-left: 0.8rem;
+}
+.below-div button{
+    position: absolute;
+    left:9%;
+    top:4.5rem;
+    padding: .5rem .5rem;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+}
+.below-div button:hover{
+    font-weight: 700;
+}
+.sec-product-array{
+    width: 80%;
+    margin-top: 22rem;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+
+}
+.sec-product-array h1{
+    font-size: 2rem;
+    color: rgb(151, 151, 232);
+}
+.input-div{
+    width: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-product-array input{
+    height: 3rem;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 1%;
+    border: 1px solid lightslategray;
+}
+.search-icon{
+    font-size: 1.5rem;
+    margin-left: -5%;
+    margin-top: -0.1%;
+}
+.product-array{
+    width: 80%;
+    margin-top: 5rem;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:2rem;
+}
+
+/* --------------------------------------------------
+Responsive Coding
+-------------------------------------------------- */
+
+@media screen and (max-width:500px){
+
+    .input-div{
+        width: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-product-array input{
+        height: 3rem;
+        width: 100%;
+        border-radius: 20px;
+        padding-left: 1%;
+        border: 1px solid lightslategray;
+    }
+    .search-icon{
+        font-size: 1.5rem;
+        margin-left: -8%;
+        margin-top: -0.1%;
+    }
+}

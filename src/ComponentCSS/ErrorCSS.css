@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.error-container{
+    width: 80%;
+    height: 50rem;
+    margin-top: 5%;
+    background: url("../../public/Images/access-denied.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10%;
+    position: relative;
+}
+.error-btn{
+    background: transparent;
+    border: 5px solid rgb(64, 189, 64);
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top:5%;
+    left:40%;
+    border-radius: 20px;
+    color: rgb(115, 192, 115);
+}

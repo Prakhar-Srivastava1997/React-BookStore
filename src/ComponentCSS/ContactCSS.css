@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    width: 100%;
+}
+.contact-heading{
+    width:100%;
+    margin-top: 3rem;
+}
+.contact-heading h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: .5rem;
+    text-align: center;
+}
+.contact-options{
+    width: 100%;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.address{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.address img{
+    width:30%;
+    height: 100%;
+    position: absolute;
+    left:23%;
+}
+.address p{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: absolute;
+    left:60%;
+}
+.phone{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.phone img{
+    width:30%;
+    height: 100%;
+    position: absolute;
+    left:23%;
+}
+.phone p{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: absolute;
+    left:60%;
+}
+.email{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.email img{
+    width:18%;
+    height: 100%;
+    position: absolute;
+    left:29%;
+}
+.email p{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: absolute;
+    left:60%;
+}
+.socialmedia{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.socialmedia img{
+    width:30%;
+    height: 100%;
+    position: absolute;
+    left:23%;
+}
+.socialmedia div{
+    display: flex;
+    gap:1rem;
+    position: absolute;
+    font-size: 3rem;
+    left: 60%;
+}
+
+/* ----------------------------------------------
+Responsive Coding
+---------------------------------------------- */
+
+@media screen and (max-width:500px){
+
+    .address{
+        width: 100%;
+        height: 20rem;
+        position: relative;
+    }
+    .address img{
+        width:30%;
+        height: 100%;
+        position: absolute;
+        left:10%;
+    }
+    .address p{
+        font-size: 1.5rem;
+        font-family: sans-serif;
+        font-weight: 700;
+        position: absolute;
+        left:40%;
+    }
+
+    .phone{
+        width: 100%;
+        height: 20rem;
+        position: relative;
+    }
+    .phone img{
+        width:30%;
+        height: 100%;
+        position: absolute;
+        left:10%;
+    }
+    .phone p{
+        font-size: 1.5rem;
+        font-family: sans-serif;
+        font-weight: 700;
+        position: absolute;
+        left:40%;
+    }
+    .email{
+        width: 100%;
+        height: 20rem;
+        position: relative;
+    }
+    .email img{
+        width:18%;
+        height: 100%;
+        position: absolute;
+        left:15%;
+    }
+    .email p{
+        font-size: 1.5rem;
+        font-family: sans-serif;
+        font-weight: 700;
+        position: absolute;
+        left:35%;
+    }
+    .socialmedia{
+        width: 100%;
+        height: 20rem;
+        position: relative;
+    }
+    .socialmedia img{
+        width:30%;
+        height: 100%;
+        position: absolute;
+        left:10%;
+    }
+    .socialmedia div{
+        display: flex;
+        gap:1rem;
+        position: absolute;
+        font-size: 3rem;
+        left: 40%;
+    }
+}
